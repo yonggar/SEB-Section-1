@@ -1,0 +1,12 @@
+{
+  "name": "sw_sprints_query_selector",
+  "version": "1.0.0",
+  "description": "query_selector sprint",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "lerna bootstrap",
+    "test": "lerna run test",
+    "submit": "node ./.travis/submit.js"
+  },
+  "dependencies": {}
+}
