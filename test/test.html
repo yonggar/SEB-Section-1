@@ -7,23 +7,26 @@
   <title>Document</title>
 </head>
 <body>
-  <div id='mocha'></div>
   <div id='root'>
     <div class="box">
       <div id="hello">hello</div>
       <div id="world">world</div>
       <div id="codestates">codestates</div>
     </div>
+    <div class="box">
+      <div class="city">Toronto</div>
+      <div class="province">Ontario</div>
+      <div class="country">Canada</div>
+    </div>
+    <div class="box">
+      <span>Todo</span>
+      <ul>
+        <li>laundry</li>
+        <li>study</li>
+        <li>clean</li>
+      </ul>
+    </div>
   </div>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/chai/4.2.0/chai.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/mocha/8.2.0/mocha.min.js"></script>
-  <script>
-    mocha.setup('bdd');
-  </script>
-  <script src="index.js"></script>
-  <script src="specRunner/test.js"></script>
-  <script>
-    mocha.run();
-  </script>
+  <script src="/index.js"></script>
 </body>
 </html>

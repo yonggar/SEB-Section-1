@@ -1,21 +1,17 @@
-// 최초 선언 변수들입니다. 해당 이름에 맞는 값을 index.html에서 셀럭터를 이용해 담아보세요!
-// 수정하지 마세요!
-let hello, world, codestates, city, province, country, todo, laundry, study, clean;
+// TODO: 자바스크립트 코드를 사용하여 index.html에 있는 값들을 전에서 후로 바꿔보세요
+// 직접 index.html을 수정하지 않아야 합니다.
 
-// TODO: 10가지 변수에 알맞은 값을 담아야 합니다.
-// hello = 'hello' 와 같은 식으로 직접 값을 담아주면 안됩니다! Node.textContent 속성을 사용하여 담아보세요.
+/*
+전:
+<div id="hello">hello</div>
+<div id="world">world</div>
+<div id="codestates">codestates</div>
 
-// 테스트를 위한 코드입니다.
-// 수정하지 마세요!
-module.exports = {
-  hello,
-  world,
-  codestates,
-  city,
-  province,
-  country,
-  todo,
-  laundry,
-  study,
-  clean,
-};
+후:
+<div id="hello">안녕하세요</div>
+<div id="world">여러분</div>
+<div id="codestates">코드스테이츠</div>
+*/
+
+// TODO: document.querySelector와 textContent를 활용하여 index.html에 있는 값들을 전에서 후로 바꿔보세요
+// 직접 index.html을 수정하지 않아야 합니다.
