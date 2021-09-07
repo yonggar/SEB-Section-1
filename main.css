@@ -15,13 +15,17 @@
 #input_div {
   background-color:deepskyblue;
   padding: 0.3em 0.5em;
-  
+
 }
 
 li {
   list-style: none;
-  color: white
+  color: white;
+}
 
+li.list_li{
+  list-style: none;
+  color: black;
 }
 
 #message {
@@ -37,4 +41,44 @@ li {
 
 button {
   margin-top: 0.2em;
+  height: 30px;
+}
+
+#tweet_msg_div {
+  background-color: #d2d2d2;
+  padding: 5px 20px;
+}
+
+.single_tweet {
+  margin-top: 10px;
+  border-bottom: 1px solid;
+  padding-bottom: 5px;
+  text-align: justify;
+  position: relative;
+}
+
+time {
+  position: absolute;
+  left: 85%;
+}
+
+span {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+span:hover {
+  font-size: 18px;
+  font-weight: bold;
+  color: skyblue;
+}
+
+#tweet_list {
+  background-color: #0000CD;
+  margin-top: 20px;
+}
+
+#tweet_list button {
+  margin: 5px;
+
 }
