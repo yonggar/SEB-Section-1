@@ -1,0 +1,84 @@
+#greeting {
+  font-size: 2em;
+  font-family: sans-serif;
+  font-weight: bold;
+  /* border: 2px solid #ccc; */
+  /* border-radius: 1em; */
+  color: white;
+  /* background-color: #eee; */
+  text-shadow: 0 0 5px #333;
+  text-align: center;
+  /* margin: 0.5em; */
+  padding: 0.5em;
+}
+
+#input_div {
+  background-color:deepskyblue;
+  padding: 0.3em 0.5em;
+
+}
+
+li {
+  list-style: none;
+  color: white;
+}
+
+li.list_li{
+  list-style: none;
+  color: black;
+}
+
+#message {
+  display: flex;
+  flex-direction: column;
+
+}
+
+#message input {
+  height: 40px;
+  width: 500px;
+}
+
+button {
+  margin-top: 0.2em;
+  height: 30px;
+}
+
+#tweet_msg_div {
+  background-color: #d2d2d2;
+  padding: 5px 20px;
+}
+
+.single_tweet {
+  margin-top: 10px;
+  border-bottom: 1px solid;
+  padding-bottom: 5px;
+  text-align: justify;
+  position: relative;
+}
+
+time {
+  position: absolute;
+  left: 85%;
+}
+
+span {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+span:hover {
+  font-size: 18px;
+  font-weight: bold;
+  color: skyblue;
+}
+
+#tweet_list {
+  background-color: #0000CD;
+  margin-top: 20px;
+}
+
+#tweet_list button {
+  margin: 5px;
+
+}
