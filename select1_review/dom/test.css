@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-size: 30px;
+}
+
+body {
+  padding: 0;
+  background: white;
+}
+
+#container {
+  display: flex;
+  height: 100vh;
+  background: white;
+  padding: 0.4rem;
+  margin: 0.4rem;
+}
+
+.col{
+  display: flex;
+  flex-direction: column;
+  border: 1px red solid;
+  margin: 0.05rem;
+  padding: 0.4rem;
+}
+
+.icon {
+  border: 1px orange dashed;
+  margin: 0.4rem;
+}
+
+.row {
+  border: 1px purple dashed;
+  margin: 0.1rem;
+}
+
+.w10 {
+  flex: 1 0 0;
+}
+
+.w20 {
+  flex: 2 0 0;
+}
+
+.w70 {
+  flex: 7 0 0;
+}
+
+.h20 {
+  flex: 2 0 0;
+}
+
+.h40 {
+  flex: 4 0 0;
+}
+
+.h80 {
+  flex: 8 0 0;
+}
+
+li {
+  list-style:none;
+}
